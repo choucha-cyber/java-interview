@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>java-interview2</groupId>
+  <artifactId>java-interview2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>java-interview2</name>
+  <properties>
+    <sbt.version>1.5.5</sbt.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+  <dependencies>
+    <!-- ScalaTest -->
+    <dependency>
+        <groupId>org.scalatest</groupId>
+        <artifactId>scalatest_2.12</artifactId>
+        <version>3.2.9</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Vavr -->
+    <dependency>
+        <groupId>io.vavr</groupId>
+        <artifactId>vavr</artifactId>
+        <version>0.10.4</version>
+    </dependency>
+</dependencies>
+</project>
